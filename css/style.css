@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+
+body{
+	font-family: 'Nanum Pen Script', sans-serif;
+	font-size: 14px;
+	color: #999
+}
+
+#hero{
+	background-image: url( "../img/bg-hero.png");
+	background-size: cover;
+	height: 100vh;
+	color: #F3C158;
+	text-align: center;
+}
+
+#hero h1{
+	font-size: 80px;
+	margin-top: 20%;
+}
+
+#hero p{
+	font-size: 40px;
+	color: #FFFFFF 
+}
+
+.btn-primary{
+	background-color: #F3C158;
+	padding: 1% 5%;
+	border: 0;
+	font-weight:700;
+} 
+
+
+
+
+#what{
+	text-align: center;
+	background-color: #FFFFFF;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#what article h4{
+	font-size: 14px;
+	font-weight: 700;
+	text-tramsform: uppercase;
+	color: #303132;
+	letter-spacing: 1px;
+
+}
+
+#faq{
+	background-color: #f9fbf3;
+	background-repeat: no-repeat;
+	background-size: 500px ;
+	padding: 100px 0;
+	color: #FFFFFF;
+	background-image: url( "../img/scarecrow.png");
+	background-position: left;
+
+
+}
+
+#faq p{
+	color: #000000
+}
+
+#faq .btn{
+	text-transform: uppercase;
+	padding: 15px 40px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	border-radius: 700px;
+	background-color:#000000;
+	border-color: #FFFFFF;
+}
+
+#faq h1{
+	font-size: 30px;
+	font-weight: 300;
+	text-align: right;
+	color: #000000;
+	
+}
+
+#faq h2{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	color: #000000;
+	text-align: right;
+}
+
+
+
+#works .tab-content{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding: 40px 0;
+}
+
+#works .nav-tabs a{
+	
+	color: black;
+	font-size: 20px;
+	border: 0;
+	border-radius: 0;
+}
+
+#works .nav-tabs a.active{
+	background-color: #000000;
+	color: white;
+	font-size: 20px;
+	border: 0;
+	border-radius: 0;
+}
+
+#works .nav-tabs{
+	
+	box-shadow: 0 0 10px 0 #ddd;
+	background-color: #fff;
+}
+
+
+#contact-form{
+	text-align: center;
+	background-image: url(  "../img/ghost.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	
+	
+}
+
+#contact-form .row{
+	margin-left: 10%;
+}
+#contact-form input,
+#contact-form textarea{
+	border-radius: 0;
+	padding: 25px 10px;
+}
+
+
+
+footer{
+	background-color:#ffac2c;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+
+}
